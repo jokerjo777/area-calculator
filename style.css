@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@100&display=swap');
+
+body {
+    background: rgb(35, 38, 52);
+    color: rgb(220, 224, 232);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 200px;
+}
+
+.container {
+    background-color: rgb(24, 25, 38);
+    width: 50%;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.childContainer {
+    background-color: transparent;
+    padding: 10px;
+}
+
+input {
+    background-color: rgb(110, 115, 141);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: large;
+    color: rgb(24, 25, 38);
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: rgb(32, 159, 181);
+    border: none;
+    border-radius: 10px;
+}
+
+#result {
+    text-align: center;
+}
